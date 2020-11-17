@@ -23,8 +23,7 @@ export default function Home({
       <section className={utilStyles.headingMd}>
         <p>I'm <b>Fran</b>, an Argentinian Front-end Developer currently living in Sweden.</p>
         <p>
-          (This is a sample website - you’ll be building a site like this in{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          This is a blog website made with Next.js and TypeScript, to try out some new techs and make a blog out of it.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
