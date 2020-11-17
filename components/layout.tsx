@@ -3,7 +3,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = '[Your Name]'
+const name = 'Francisco Escobar Sabio'
 export const siteTitle = 'Next.js Sample Website'
 
 export default function Layout({
@@ -34,7 +34,7 @@ export default function Layout({
         {home ? (
           <>
             <img
-              src="/images/profile.jpg"
+              src="/images/fran.jpg"
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
             />
@@ -45,7 +45,7 @@ export default function Layout({
             <Link href="/">
               <a>
                 <img
-                  src="/images/profile.jpg"
+                  src="/images/fran.jpg"
                   className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                   alt={name}
                 />
